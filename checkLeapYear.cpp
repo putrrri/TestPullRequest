@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
     int tahun;
+    cout << "changes" << endl;
     cout << "Masukkan tahun : "; cin >> tahun;
     if (tahun % 4 == 0) {
         if (tahun % 100 == 0) {
